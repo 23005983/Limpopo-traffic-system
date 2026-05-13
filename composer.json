@@ -1,0 +1,15 @@
+{
+    "name": "27825/traffic-system",
+    "autoload": {
+        "psr-4": {
+            "27825\\TrafficSystem\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "23026772",
+            "email": "163412805+23026772@users.noreply.github.com"
+        }
+    ],
+    "require": {}
+}

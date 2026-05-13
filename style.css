@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* CONTAINER */
+.container {
+    width: 280px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TITLE */
+h1 {
+    color: #0a7f2e;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* LABELS */
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* INPUTS */
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+/* ============================= */
+/* PASSWORD BOX */
+/* ============================= */
+.password-box {
+    position: relative;
+    width: 100%;
+}
+
+.password-box input {
+    width: 100%;
+    padding-right: 45px;
+}
+
+/* EYE ICON */
+.toggle-eye {
+    position: absolute;
+    right: 12px;
+    top: 38%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: black;
+}
+
+.toggle-eye .material-icons {
+    font-size: 20px;
+}
+/* BUTTON */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+/* SUCCESS BUTTON */
+.success-btn {
+    display: block;
+    width: 85%;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.success-btn:hover {
+    background-color: darkgreen;
+}
+
+/* ============================= */
+/* NICE BOOKING POPUP STYLES */
+/* ============================= */
+
+/* POPUP OVERLAY */
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* POPUP BOX */
+.popup-box {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+    text-align: center;
+    box-shadow: 0px 6px 15px rgba(0,0,0,0.2);
+}
+
+/* POPUP TITLE */
+.popup-box h3 {
+    margin-top: 0;
+    color: #0a7f2e;
+}
+
+/* POPUP TEXT */
+.popup-box p {
+    margin: 15px 0;
+    color: #333;
+}
+
+/* POPUP BUTTONS */
+.popup-box button {
+    width: auto;
+    padding: 10px 20px;
+    margin: 8px;
+}
