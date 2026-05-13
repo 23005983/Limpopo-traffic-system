@@ -1,4 +1,4 @@
-# Limpopo-traffic-system
+
 # 🚦 Limpopo Traffic System
 
 An online traffic appointment booking and management system developed using PHP and MySQL.
@@ -76,16 +76,16 @@ The system allows citizens to:
 # 📷 Screenshots
 
 ## Login Page
-(Add screenshot here)
+
 
 ## Booking Page
-(Add screenshot here)
+
 
 ## PDF Receipt
-(Add screenshot here)
+
 
 ## QR Verification
-(Add screenshot here)
+
 
 ---
 
